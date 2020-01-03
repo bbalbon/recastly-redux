@@ -1,26 +1,10 @@
 import React from 'react';
-import VideoListContainer from './VideoList.js';
-import VideoPlayerContainer from './VideoPlayer.js';
-import SearchContainer from './Search.js';
+import VideoListContainer from '../containers/VideoListContainer.js';
+import VideoPlayerContainer from '../containers/VideoPlayerContainer.js';
+import SearchContainer from '../containers/SearchContainer.js';
 
-export default App = () => (
-
+const App = () => (
   // this.getYouTubeVideos = this.getYouTubeVideos.bind(this);
-
-
-  // getYouTubeVideos(query) {
-  //   var options = {
-  //     key: this.props.API_KEY,
-  //     query: query
-  //   };
-
-  //   this.props.searchYouTube(options, (videos) =>
-  //     this.setState({
-  //       videos: videos,
-  //       currentVideo: videos[0]
-  //     })
-  //   );
-  // }
 
   //TODO: swap out the React components below for the container components
   //  you wrote in the 'containers' directory.
@@ -40,3 +24,5 @@ export default App = () => (
     </div>
   </div>
 );
+
+export default App;
