@@ -12,7 +12,6 @@ var Search = ({handleSearchInputChange}) => (
       <span className="glyphicon glyphicon-search"></span>
     </button>
   </div>
-
 );
 
 export default Search;
